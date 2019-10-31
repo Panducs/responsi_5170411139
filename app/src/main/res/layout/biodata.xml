@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biodat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="BIODATA REGISTRASI"
+            android:textSize="40sp"
+            android:textColor="#6A5ACD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF8DC"
+            android:padding="5dp"
+            android:textSize="5sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="NAMA REGISTER"
+            android:textSize="25sp"
+            android:textColor="#A0522D"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Ini Untuk Nama"
+            android:textSize="20sp"
+            android:textColor="#6A5ACD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="ALAMAT REGISTER"
+            android:textSize="25sp"
+            android:textColor="#A0522D"/>
+
+        <TextView
+            android:textColor="#6A5ACD"
+            android:id="@+id/almt"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ini_untuk_alamat"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="EMAIL REGISTER"
+            android:textSize="25sp"
+            android:textColor="#A0522D"/>
+
+        <TextView
+            android:textColor="#6A5ACD"
+            android:textAlignment="center"
+            android:id="@+id/eml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ini_untuk_email"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF8DC"
+            android:padding="5dp"
+            android:textSize="5sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Back Login" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

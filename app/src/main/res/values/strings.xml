@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Responsi_Pandu</string>
+    <string name="registerr">REGISTER</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ini_untuk_alamat">Ini Untuk Alamat</string>
+    <string name="ini_untuk_email">Ini Untuk Email</string>
+</resources>
